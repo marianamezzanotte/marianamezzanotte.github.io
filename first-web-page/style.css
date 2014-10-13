@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+    font-weight: bold; 
+}
+
+.tile {
+    width: 170px;
+    height: 140px;
+    margin: 5px;
+    padding: 18px;
+    float: left;
+}
+
+.tile-double {
+    width: 390px;
+    height: 140px;
+    margin: 7px;
+    padding: 18px;
+    float: left;
+}
+
+
+/*background colors for the tiles*/
+.green {
+    background-color: #13B2A3;
+}
+
+.red {
+    background-color: #F16F51;
+}
+
+.yellow {
+    background-color: #FDB45C;
+}
+
+.lightgrey {
+    background-color: #F6F6F6;
+    color: black;
+}
+
+.city {
+    background-image: url("tandil.png");
+    background-size: 100% 100%;
+    font-size: 18pt;
+    color: #27aabd;
+    text-align: center;
+}
+
+.friends {
+    background-image: url("amigas.png");
+    background-size: 100% 100%;
+}
+
+#main-container {
+    max-width: 900px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+#users-table {
+    margin: 10px auto;
+    font-weight: normal;
+    width: 100%;
+}
+
+#users-table th {
+    border-bottom: 1px solid #F6F6F6;
+    padding: 2px;
+    text-align: center;
+}
+
+#users-table td {
+    padding: 2px;
+    text-align: center;
+}
+
+.chart-total {
+    font-size: 13pt;
+    text-align: center; 
+}
+
+.event-day {
+    font-size: 55pt;
+}
+
+.event-hours {
+    font-size: 10pt;
+    font-style: italic;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.tile-list li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+ul.tile-list li {
+  list-style-type: disc;
+}
+
+ol.tile-list li {
+    list-style-type: decimal;
+}
+
+.tile-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.event-date {
+    margin-top: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 18pt;
+}
